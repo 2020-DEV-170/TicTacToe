@@ -20,6 +20,8 @@
 		60D2B9302550546000D05451 /* GameModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2B9262550542D00D05451 /* GameModelTests.swift */; };
 		60D2B9312550546100D05451 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2B9282550542D00D05451 /* GameTests.swift */; };
 		60D2B9322550546100D05451 /* MockGameStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2B9272550542D00D05451 /* MockGameStates.swift */; };
+		60D2B93C255061B500D05451 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2B93A255061B500D05451 /* GameView.swift */; };
+		60D2B93D255061B500D05451 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2B93B255061B500D05451 /* GameViewController.swift */; };
 		60DF74DC22DB159D00629CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF74D122DB159D00629CFA /* AppDelegate.swift */; };
 		60DF74DD22DB159D00629CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DF74D422DB159D00629CFA /* Assets.xcassets */; };
 		60DF74DE22DB159D00629CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DF74D522DB159D00629CFA /* LaunchScreen.storyboard */; };
@@ -50,6 +52,8 @@
 		60D2B9262550542D00D05451 /* GameModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModelTests.swift; sourceTree = "<group>"; };
 		60D2B9272550542D00D05451 /* MockGameStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockGameStates.swift; sourceTree = "<group>"; };
 		60D2B9282550542D00D05451 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		60D2B93A255061B500D05451 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		60D2B93B255061B500D05451 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		60DF749522DB0A9F00629CFA /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DF74D122DB159D00629CFA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60DF74D422DB159D00629CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,6 +120,15 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		60D2B939255061B500D05451 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60D2B93A255061B500D05451 /* GameView.swift */,
+				60D2B93B255061B500D05451 /* GameViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		60DF748C22DB0A9F00629CFA = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				60DF74D122DB159D00629CFA /* AppDelegate.swift */,
+				60D2B939255061B500D05451 /* View */,
 				60D2B8B925504F6000D05451 /* ViewModel */,
 				60D2B8902550415500D05451 /* Model */,
 				60D2B8B025504BC200D05451 /* Utils */,
@@ -278,12 +292,14 @@
 				60D2B8AC2550471A00D05451 /* Game.swift in Sources */,
 				60D2B8B625504BC200D05451 /* Sequence.swift in Sources */,
 				60DF74DC22DB159D00629CFA /* AppDelegate.swift in Sources */,
+				60D2B93D255061B500D05451 /* GameViewController.swift in Sources */,
 				60D2B8B525504BC200D05451 /* UIStackView.swift in Sources */,
 				60D2B8B425504BC200D05451 /* UIView.swift in Sources */,
 				60D2B8A42550459000D05451 /* Piece.swift in Sources */,
 				60D2B8A9255045F600D05451 /* Player.swift in Sources */,
 				60D2B8BB25504F6000D05451 /* GameViewModel.swift in Sources */,
 				60D2B89A2550415500D05451 /* Coordinates.swift in Sources */,
+				60D2B93C255061B500D05451 /* GameView.swift in Sources */,
 				60D2B8BE25504F9B00D05451 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
